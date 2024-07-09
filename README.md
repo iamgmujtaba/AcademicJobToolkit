@@ -48,6 +48,12 @@ job-toolkit
 └── split_pdf.py
 └── README.md
 ```
+### File Descriptions
+- `main.tex`: Main LaTeX file that combines all sections
+- `resume.sty`: Custom style file for LaTeX
+- `bibliography.bib`: BibTeX file for references
+- `split_pdf.py`: Python script to split the compiled PDF
+
 
 ### Usage
 1. Prepare your LaTeX project, which is compiled into a single PDF file containing all sections of your job application. The LaTeX project should be structured with \newpage between sections to ensure each section starts on a new page.
@@ -64,6 +70,22 @@ python split_pdf.py
 
 5. The script will create a jobApp directory and save each section as a separate PDF file within this directory. After splitting, the original PDF file will be deleted.
 
+### Output
+After running the script, your jobApp directory will contain files like:
+- Cover_Letter.pdf
+- Research_Statement.pdf
+- Teaching_Statement.pdf
+- Diversity_Statement.pdf
+- References.pdf
+
+### Troubleshooting
+If you encounter any issues, please check the following:
+- Ensure all LaTeX packages are installed
+- Verify that PyPDF2 is correctly installed
+- Check that the PDF file name in the Python script matches your compiled PDF
 
 ### Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
+
+### Reporting Issues
+If you encounter any bugs or have feature requests, please file an issue on the [GitHub issue tracker](https://github.com/iamgmujtaba/AcademicJobToolkit/issues).
