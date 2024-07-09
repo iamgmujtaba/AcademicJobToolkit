@@ -2,6 +2,7 @@
 
 AcademicJobToolkit is a Python and LaTeX-based project designed to assist in preparing and organizing academic job application documents. It simplifies splitting a single PDF containing multiple sections (e.g., Cover Letter, Research Statement, Teaching Statement, Diversity Statement, and References) into separate PDFs for each section, ensuring a streamlined and efficient job application process.
 
+![jobsearch_over](https://github.com/iamgmujtaba/AcademicJobToolkit/assets/33286377/27f0f39b-a60b-4f39-bedf-86437b17911b)
 
 ### Features
 - LaTeX Project Structure: Organized template for compiling academic job application documents.
@@ -69,6 +70,7 @@ python split_pdf.py
 ```
 
 5. The script will create a jobApp directory and save each section as a separate PDF file within this directory. After splitting, the original PDF file will be deleted.
+![jobsearch_cmd](https://github.com/iamgmujtaba/AcademicJobToolkit/assets/33286377/f0bf9b06-cc86-40c0-bd8a-02b64941564a)
 
 ### Output
 After running the script, your jobApp directory will contain files like:
