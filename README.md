@@ -17,6 +17,7 @@ AcademicJobToolkit is a Python and LaTeX-based project designed to assist in pre
 
 ### Installation
 - Clone the repository:
+
 ``` bash
 git clone https://github.com/iamgmujtaba/AcademicJobToolkit.git
 cd AcademicJobToolkit
@@ -34,6 +35,7 @@ pip install PyPDF2
 
 
 ### Directory Structure
+
 ```
 job-toolkit
 │
@@ -49,6 +51,7 @@ job-toolkit
 └── split_pdf.py
 └── README.md
 ```
+
 ### File Descriptions
 - `main.tex`: Main LaTeX file that combines all sections
 - `resume.sty`: Custom style file for LaTeX
