@@ -1,0 +1,36 @@
+\usepackage{marvosym}
+\usepackage{fontawesome5}
+\usepackage[english]{babel}
+\usepackage{blindtext}
+\usepackage{standalone}
+\usepackage[T1]{fontenc}
+\usepackage[default, semibold]{sourcesanspro}
+\usepackage[10pt]{moresize}
+\usepackage{anyfontsize}
+\usepackage{csquotes}
+\usepackage[margin=.5in, top=.5in, bottom=0.8in]{geometry}
+\raggedright
+\raggedbottom
+\usepackage{xcolor}
+\definecolor{highlight}{RGB}{61, 90, 128}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    urlcolor=highlight
+}
+\usepackage[inline]{enumitem}
+\setlength{\tabcolsep}{0in}
+\usepackage{titlesec}
+\titlespacing*{\section}{0em}{0.5em}{0em}
+\titleformat{\section}{\color{black}\scshape\raggedright\large}{}{0em}{}[\vspace{-0.75em}\hrulefill]
+\titlespacing*{\subsection}{0em}{0em}{0em}
+\titleformat{\subsection}{\bfseries}{}{0em}{}
+\newcommand{\subtext}[1]{\textit{#1}\par\vspace{-.75em}}
+\setlist[itemize]{align=parleft, left=0pt..1em}
+\newenvironment{zitemize}{\begin{itemize}\itemsep 0pt\parskip 0pt\parsep 1pt}{\end{itemize}\vspace{-.5em}}
+\usepackage{microtype}
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrule}{}
